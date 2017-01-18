@@ -1,0 +1,19 @@
+{
+  "name": "path-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/PathGenerator.spec | faucet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faucet": "0.0.1",
+    "parse5": "^3.0.1",
+    "tape": "^4.6.3"
+  },
+  "devDependencies": {
+    "babel-tape-runner": "^2.0.1"
+  }
+}
